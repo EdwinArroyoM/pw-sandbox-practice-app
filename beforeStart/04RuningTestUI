@@ -1,0 +1,42 @@
+# Tutorial: Running Tests Using UI in VS Code with Playwright Integration
+
+1. **Open Your Project in VS Code**:
+   - Launch Visual Studio Code and open the project that contains your Playwright tests.
+
+2. **Open the Testing Sidebar**:
+   - Click on the Testing icon in the Activity Bar on the side of the window. This will open the Testing sidebar where you can see all your tests.
+
+3. **Run All Tests**:
+   - In the Testing sidebar, you will see a list of all your Playwright tests.
+   - Click the `Run All Tests` button (a play icon) at the top of the Testing sidebar to run all the tests in your project.
+
+4. **Run Individual Tests**:
+   - To run a specific test, hover over the test in the Testing sidebar.
+   - Click the `Run Test` button (a play icon) that appears next to the test name.
+
+5. **View Test Results**:
+   - After running the tests, you can see the results directly in the Testing sidebar.
+   - Passed tests will be marked with a green checkmark, and failed tests will be marked with a red cross.
+
+# Optionals:
+
+6. **Optional Configurations**:
+    - **Settings**: Customize your Playwright settings by modifying the `playwright.config.ts` file in your project.
+    - **Change Project**: If you need to switch to a different project, go to `File > Open Folder` and select the new project folder.
+    - **Tools**: Enhance your testing workflow by installing additional VS Code extensions such as `ESLint`, `Prettier`, or `Debugger for Chrome`.
+
+
+7. **Debug Tests**:
+   - To debug a test, hover over the test in the Testing sidebar.
+   - Click the `Debug Test` button (a bug icon) that appears next to the test name.
+   - This will start the test in debug mode, allowing you to set breakpoints and step through the code.
+
+8. **Run Playwright Test UI from Terminal**:
+    - Open a terminal in VS Code.
+    - Run the following command to open the Playwright Test UI:
+      ```sh
+      npx playwright test --ui
+      ```
+    - This will launch the Playwright Test UI in your default browser, where you can run and debug your tests interactively.
+
+

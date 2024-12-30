@@ -1,0 +1,25 @@
+Pros of Playwright:
+- Support for multiple browsers (Chromium, Firefox, WebKit).
+- Unified API for all platforms.
+- Automatic video and screenshot capture.
+- Support for parallel testing.
+- Ability to intercept and modify network requests.
+- Faster performance.
+
+Cons of Playwright:
+- Steeper learning curve for beginners.
+- Smaller community and ecosystem compared to Cypress.
+
+Pros of Cypress:
+- Easy to set up and use, especially for beginners.
+- Excellent documentation and active community.
+- Automatic and fast test reloading.
+- Simple debugging with built-in tools.
+- Native support for component testing.
+- Faster scripting  (Less code)
+- Better test runner (Time machine)
+
+Cons of Cypress:
+- Limited browser support (only Chromium and Firefox).
+- Does not support testing on real mobile devices.
+- Limitations in parallel test execution.

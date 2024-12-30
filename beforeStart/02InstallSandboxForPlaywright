@@ -1,0 +1,22 @@
+# Tutorial: Cloning the Repository and Installing Dependencies
+
+1. **Clone the Repository**:
+   - Open a terminal on your computer.
+   - Run the following command to clone the repository:
+     ```sh
+     git clone https://github.com/EdwinArroyoM/Playwright2025.git
+     ```
+
+2. **Navigate to the Project Directory**:
+   - Change to the project directory by running:
+     ```sh
+     cd Playwright2025
+     ```
+
+3. **Install Dependencies**:
+   - Run the following command to install all the dependencies with the `--force` flag:
+     ```sh
+     npm install --force
+     ```
+
+That's it! You have successfully cloned the repository and installed all the dependencies.

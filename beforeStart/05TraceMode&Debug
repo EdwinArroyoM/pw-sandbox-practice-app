@@ -1,0 +1,33 @@
+# Tutorial: Trace and Debug with Playwright
+
+## Enabling Trace Mode
+
+1. **Run Tests with Trace**:
+   - Use the `--trace on` flag when running your tests to enable trace mode:
+     ```sh
+     npx playwright test --trace on
+     ```
+
+## Viewing Traces
+
+1. **Open Trace Viewer**:
+   - After running your tests, open a terminal in VS Code.
+   - Run the following command to open the Playwright Trace Viewer:
+     ```sh
+     npx playwright show-trace trace.zip
+     ```
+   - Replace `trace.zip` with the path to your trace file.
+
+## Debugging Tests
+
+1. **Run Tests in Debug Mode**:
+   - Use the `--debug` flag when running your tests to enable debug mode:
+     ```sh
+     npx playwright test --debug
+     ```
+
+2. **Debugging Session**:
+   - The test will start in debug mode.
+   - Use the debug controls in VS Code to set breakpoints, inspect variables, and evaluate expressions.
+
+That's it! You have successfully enabled trace mode and debugged your Playwright tests.

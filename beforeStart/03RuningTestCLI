@@ -1,0 +1,12 @@
+# Tutorial: Running test with CLI
+
+1. **Open terminal in Visual Studio Code**:
+   - Run "npx playwright test"
+   - Test will run and you will see how many of them run and passed/failed/workers and report
+
+2. **Specify the Browser to use**:
+    - Add a flag on the runner "--project=chromium"
+
+3. **Specify the spec file and browser**:
+    - Add a flag on the runner "example.spec.ts --project=chromium"
+     

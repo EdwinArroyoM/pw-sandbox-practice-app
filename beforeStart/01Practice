@@ -1,0 +1,28 @@
+# Tutorial: Installing Playwright Microsoft Extension in VS Code
+
+1. **Open Visual Studio Code**:
+   - Launch Visual Studio Code on your computer.
+
+2. **Open Extensions View**:
+   - Click on the Extensions icon in the Activity Bar on the side of the window. Alternatively, you can open the Extensions view by pressing `Ctrl+Shift+X`.
+
+3. **Search for Playwright**:
+   - In the Extensions view, type "Playwright" into the search bar.
+
+4. **Install Playwright Test for VS Code**:
+   - Find the extension named "Playwright Test for VS Code" by Microsoft.
+   - Click the `Install` button to install the extension.
+
+5. **Verify Installation**:
+   - Once installed, you should see the Playwright extension in the list of installed extensions.
+   - You can now use the Playwright extension to write and run Playwright tests directly from Visual Studio Code.
+
+6. **Create a New Playwright Project**:
+   - Open the Command Palette by pressing `Ctrl+Shift+P`.
+   - Type `Playwright: Install Playwright` and select it.
+   - Follow the prompts to set up a new Playwright project.
+
+7. **Run Your First Test**:
+   - After setting up the project, you can create and run your first Playwright test using the extension's features.
+
+That's it! You have successfully installed the Playwright Microsoft extension in Visual Studio Code and set up a new Playwright project.
